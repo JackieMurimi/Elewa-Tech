@@ -1,0 +1,11 @@
+#Second python file with 10 lines of code that include a print statement
+print("Hello, are you aware of the current aged population in the Kenya?")
+print("We currently have an estimated 2.1M who are elderly citizens in Kenya")
+print("This number is estimated to increase to 9.2M by the year 2050.")
+print("In fact, older people will constitute more than a fifth of the world population with Africa having the greatest increase.")
+print("But Africa is the least prepared continent for this demographic transition.")
+print("African countries are ill-prepared to provide long term care for older people.")
+print("This is because we don't have comprehensive plans at the family, community and the national level.")
+print("In africa care for older people and the disabled is mostly done by family members.")
+print("This means that there is a substantial unmet need for aged long term and short term care")
+print("There's so much to be done")

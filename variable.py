@@ -5,15 +5,15 @@
 first_var = "My mental health"
 second_var = "Famiy"
 
-#print(first_var)
-#print(second_var)
+print(first_var)
+print(second_var)
 
 #second representation
 motivation_1 = "I want to be a good programmer"
 motivation_2 = "I love being the best at what i do"
 
-#print(var_1)
-#print(var_2)
+print(motivation_1)
+print(motivation_2)
 
 #third representation
 first_conviction = "I believe that there's God"
