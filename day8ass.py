@@ -42,3 +42,7 @@ var_a = a
 var_b = b and (not c)
 var_c = b and (not c)
 
+
+
+#(p ∧ q) ∨ (¬p ∧ q) ∨ (¬p ∧ ¬q).
+
