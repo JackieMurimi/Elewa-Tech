@@ -25,6 +25,20 @@ else:
     print(house_b)
     print("The rent is outside your budget")
 
-#
+    #baby scenario
+    baby_age = 1
+
+    if(baby_age >= "1 year"):
+        print("Breastmilk is a must")
+        print("The baby is still weaning")
+
+#moving out scenario
+school_dis = "near"
+desire = " No freedom"
+
+if(school_dis == "far" or desire == "freedom"):
+    print("We are moving out")
+else:
+    print("Stay home")
 
 
