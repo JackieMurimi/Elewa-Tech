@@ -1,0 +1,70 @@
+##nested for () incremental pattern
+###
+
+pat = 10
+
+for i in range(0, pat):
+    for j in range(0, i+1):
+        print("*", end="")
+        print()
+
+
+##decrement
+for i in range(0, pat):
+    for j in range(0, i-1):
+        print("-", end="")
+        print()
+
+
+
+
+####intermediate complex example
+#toothbrush,toothpaste,baking soda
+week = 7
+toothpaste = 1
+toothbrush = 1
+bakingSoda = 5
+mirror = 1
+water = 7
+
+for i in range(0, week):
+    for j in range (water):
+        for w in range (bakingSoda):
+            if(toothpaste == 1):
+                if(toothbrush == 1):
+                    print("you can brush your teeth")
+                else:
+                    print("Go buy a new toothbrush")
+            else:
+                print("Go buy toothpaste")
+        else:
+            if(toothpaste == 1 and toothbrush == 1):
+                print("You can go brush your teeth")
+
+# dishwashing procedure
+period = 7
+day = 2
+soap = 1
+washingBrush = 1
+dishRack = "empty"
+dishes = 1
+water = 14
+for i in range(period):
+    for d in range(day):
+        for w in range(water):
+            if(soap == 1):
+                if(dishes == 1):
+                    if(washingBrush == 1):
+                        if(dishRack == "empty"):
+                         print("wash your dishes and place in the dishrack")
+                         break
+                    else:
+                        print("empty the dishrack first")
+                else:
+                    print("Go buy a washing brush")
+            else:
+                print("You have no dirty dishes")
+        else:
+            print("Go buy soap")
+    else:
+        print("You have completed your cycles today")
