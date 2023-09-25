@@ -8,7 +8,7 @@ class derived_class(base_class):
     methods'''
 
 class person:
-    def _init_ (self, name, age):
+    def __init__ (self, name, age):
         self.name = name
         self.age = age
 
@@ -37,7 +37,7 @@ class Electric_shop:
      
      #constructor
     
- def _init_ (self, pd_name, quantity, price):
+ def __init__ (self, pd_name, quantity, price):
           self.name = pd_name
           self.quantity = quantity
           self.price = price
@@ -65,14 +65,14 @@ print(laptop.getPrice())
 
 #example 3
 class Electric_shop:
-    def _init_ (self, pd_name, quantity, price):
+    def __init__ (self, pd_name, quantity, price):
          self.name = pd_name
          self.quantity = quantity
          self.price = price
 
 class name(Electric_shop):
     #create a new constructor
-    def _init_ (self, pd_name, quantity, price):
+    def __init__ (self, pd_name, quantity, price):
          self.sname = pd_name
          self.squantity = quantity
          self.sprice = price
@@ -91,7 +91,8 @@ class laptop(name):
     
 #creating an object
 lappy = laptop("Asus", 0, 0)
-print(lappy.getPrice)
+print(lappy.getPrice())
+
 
 
      
