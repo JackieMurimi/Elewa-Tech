@@ -21,11 +21,10 @@ class price:
         print("The profit is: ", profit)'''
 
     # create object
-    markedP = price()
+markedP = price()
 
-
-    # call the method
-print(markedP.sellprice1())
+# call the method
+print(markedP.sellprice())
 
 # example two : derived class
 
@@ -58,16 +57,18 @@ class person:
         print("Employment status: ", self._status)
 
     # derived class
-    class Newsalary(person):
 
-        # method: calculate new salary
-        def NewSalary(self):
-            sal_new = self._salary * (115/100)
-            print("New salary: ", )
+
+class Newsalary(person):
+
+    # method: calculate new salary
+    def NewSalary(self):
+        sal_new = self._salary * (115/100)
+        print("New salary: ", )
 
     # create object
-    Alice = person()
-    Alice = Newsalary()
+Alice = person()
+Alice = Newsalary()
 
-    # call on methid
-    print(Alice.newSalary())
+# call on methid
+print(Alice.newSalary())
